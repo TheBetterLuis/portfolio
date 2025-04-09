@@ -1,6 +1,31 @@
+/*SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+    */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
 body {
+  font-family: "JetBrains Mono", monospace;
   background-color: #1d2021;
-  color: #fff;
+  color: #ebdbb2;
+  line-height: 1;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
 }
 
 footer {
@@ -16,9 +41,14 @@ a {
   text-decoration: none;
 }
 
+footer {
+  height: 5vh;
+}
+
 footer a {
   color: #fff;
   padding-inline: 4px;
+  font-size: 42px;
 }
 
 .selected {
@@ -27,5 +57,23 @@ footer a {
 
 main {
   height: 400px;
-  font-size: 40px;
+}
+
+img {
+  height: 320px;
+}
+
+#about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+h1 {
+  color: #c92448;
+}
+
+.test {
+  color: #679c69;
 }
