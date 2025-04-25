@@ -1,0 +1,13 @@
+@layer base, utils, components;
+
+@import "@webtui/css";
+
+@import "@webtui/theme-catppuccin";
+@import "@webtui/plugin-nf";
+/* @import "@webtui/theme-nord"; */
+
+@layer base {
+  :root {
+    --font-family: "JetBrainsMono NFM", monospace;
+  }
+}
