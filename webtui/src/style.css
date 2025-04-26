@@ -11,3 +11,20 @@
     --font-family: "JetBrainsMono NFM", monospace;
   }
 }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2ch;
+}
+
+li:hover {
+  background: teal;
+}
+img {
+  width: 250px;
+}

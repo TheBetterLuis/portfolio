@@ -13,7 +13,38 @@
       <title>Vite App</title>
     </head>
     <body>
-      <h1>Hello World</h1>
+      <div box-="square">
+        <button size-="small" contain:!top variant-="red">Portfolio</button>
+      </div>
+      <h1>Portfolio</h1>
+      <main>
+        <div box-="round contain:!top">
+          <span is-="badge" variant-="background0">Menu</span>
+          <ul marker-="tree">
+            <li>About me</li>
+            <li>Projects</li>
+            <li>Experience</li>
+            <li>Education</li>
+            <li>Skills</li>
+            <li>Hobbies</li>
+          </ul>
+        </div>
+        <div box-="round contain:!top">
+          <span is-="badge" variant-="background0" id="current-page"
+            >About me</span
+          >
+          <div class="page">
+            <img src="./public/profile-pic.png" alt="picture of Luis Romero" />
+            <h3>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet.
+            </h3>
+          </div>
+        </div>
+      </main>
       <!-- <div box-="square">test</div> -->
       <!-- <div box-="round">test</div> -->
       <!-- <div box-="double contain:none"> -->
@@ -29,11 +60,11 @@
       <!-- <span is-="badge" variant-="background1">badge</span> -->
       <!-- <span is-="badge" variant-="background2">badge</span> -->
       <!-- <span is-="badge" variant-="background3">badge</span> -->
-      <span is-="badge" variant-="foreground0" cap-="triangle round"
-        >badge</span
-      >
-      <span is-="badge" variant-="foreground1" cap-="ribbon round">badge</span>
-      <span is-="badge" variant-="foreground2" cap-="triangle">badge</span>
+      <!-- <span is-="badge" variant-="foreground0" cap-="triangle round" -->
+      <!--   >badge</span -->
+      <!-- > -->
+      <!-- <span is-="badge" variant-="foreground1" cap-="ribbon round">badge</span> -->
+      <!-- <span is-="badge" variant-="foreground2" cap-="triangle">badge</span> -->
       <!-- <span is-="badge" variant-="flamingo">badge</span> -->
       <!-- <span is-="badge" variant-="pink">badge</span> -->
       <!-- <span is-="badge" variant-="mauve">badge</span> -->
