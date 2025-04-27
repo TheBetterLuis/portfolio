@@ -2,13 +2,15 @@
 
 @import "@webtui/css";
 
-@import "@webtui/theme-catppuccin";
+@import "@webtui/theme-gruvbox";
+/* @import "@webtui/theme-catppuccin"; */
 @import "@webtui/plugin-nf";
 /* @import "@webtui/theme-nord"; */
 
 @layer base {
   :root {
     --font-family: "JetBrainsMono NFM", monospace;
+    /* --base: #2e3440; */
   }
 }
 
@@ -22,9 +24,10 @@ main {
   padding: 2ch;
 }
 
-li:hover {
-  background: teal;
+.selected {
+  background: #458588;
 }
+
 img {
   width: 250px;
 }
