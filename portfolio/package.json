@@ -1,12 +1,15 @@
 {
-  "name": "webtui",
+  "name": "portfolio",
+  "homepage": "https://thebetterluis.github.io/portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^6.3.1"
@@ -16,6 +19,7 @@
     "@webtui/plugin-nf": "^0.0.1",
     "@webtui/theme-catppuccin": "^0.0.2",
     "@webtui/theme-gruvbox": "^0.0.1",
-    "@webtui/theme-nord": "^0.0.2"
+    "@webtui/theme-nord": "^0.0.2",
+    "gh-pages": "^6.3.0"
   }
 }
