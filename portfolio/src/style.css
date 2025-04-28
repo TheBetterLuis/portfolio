@@ -31,3 +31,17 @@ main {
 img {
   width: 250px;
 }
+
+.section-button:hover {
+  cursor: pointer;
+}
+
+.page {
+  display: none;
+}
+
+.page.visible {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2ch;
+}

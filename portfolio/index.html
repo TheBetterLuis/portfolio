@@ -11,30 +11,34 @@
         href="https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@latest/build/jetbrainsmono-nfm.css"
         rel="stylesheet"
       />
-      <title>Vite App</title>
     </head>
     <body>
-      <div box-="square">
-        <button size-="small" contain:!top variant-="orange">Portfolio</button>
+      <div box-="round contain:!top">
+        <span is-="badge" variant-="background0">Portfolio</span>
       </div>
       <h1 variant-="peach">Portfolio</h1>
       <main>
-        <div box-="round contain:!top">
-          <span is-="badge" variant-="background0">Menu</span>
-          <ul marker-="tree">
-            <li class="section-button">About me</li>
-            <li class="section-button">Projects</li>
-            <li class="section-button">Experience</li>
-            <li class="section-button">Education</li>
-            <li class="section-button">Skills</li>
-            <li class="section-button">Hobbies</li>
-          </ul>
+        <div>
+          <div box-="round contain:!top">
+            <span is-="badge" variant-="background0">Menu</span>
+            <ul marker-="tree">
+              <li class="section-button">About-me</li>
+              <li class="section-button">Projects</li>
+              <li class="section-button">Experience</li>
+              <li class="section-button">Education</li>
+              <li class="section-button">Skills</li>
+              <li class="section-button">Hobbies</li>
+            </ul>
+          </div>
+
+          <div box-="round contain:!top">
+            <span is-="badge" variant-="background0">Keybinds</span>
+          </div>
         </div>
         <div box-="round contain:!top">
-          <span is-="badge" variant-="background0" id="current-page"
-            >About me</span
-          >
-          <div class="page">
+          <span is-="badge" variant-="background0" id="current-page"></span>
+
+          <div class="page about-me">
             <img src="profile-pic.png" alt="picture of Luis Romero" />
             <h3>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -43,6 +47,26 @@
               dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
               sanctus est Lorem ipsum dolor sit amet.
             </h3>
+          </div>
+
+          <div class="page projects">
+            <button>projects</button>
+          </div>
+
+          <div class="page experience">
+            <button variant-="yellow">experience</button>
+          </div>
+
+          <div class="page education">
+            <button variant-="red">education</button>
+          </div>
+
+          <div class="page skills">
+            <button variant-="blue">skills</button>
+          </div>
+
+          <div class="page hobbies">
+            <button variant-="orange">Hobbies</button>
           </div>
         </div>
       </main>
