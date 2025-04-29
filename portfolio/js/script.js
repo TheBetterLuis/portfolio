@@ -17,10 +17,12 @@ function handleHashChange() {
       if (element.innerText.toLowerCase() === theName) {
         element.classList.add("selected");
         currentPage = index;
+        changeTitle(currentPage);
       }
     });
     updateHash(currentPage);
   } else {
+    changeTitle(0);
     document.querySelector(`.about-me`).classList.add("visible");
     history.replaceState({}, "", `/portfolio/#about-me`);
     sectionButtons[0].classList.add("selected");
