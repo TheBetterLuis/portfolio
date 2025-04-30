@@ -45,3 +45,33 @@ img {
   grid-template-columns: 1fr 1fr;
   padding: 2ch;
 }
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-inline: 2ch;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-inline: 2ch;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #ebdbb2;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a {
+  justify-content: space-evenly;
+}
