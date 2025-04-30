@@ -75,3 +75,7 @@ a:active {
 a {
   justify-content: space-evenly;
 }
+
+img {
+  width: 150px;
+}
