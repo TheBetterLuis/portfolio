@@ -130,3 +130,82 @@ li {
   align-items: center;
   justify-items: center;
 }
+
+.html {
+  color: #f16529;
+}
+.css {
+  color: #1c88c7;
+}
+
+.docker {
+  color: #0db7ed;
+}
+
+.node {
+  color: #6cc24a;
+}
+
+.javascript {
+  color: #f7df1d;
+}
+.php {
+  color: #7385bc;
+}
+
+.python {
+  background: radial-gradient(
+    circle farthest-corner at top left,
+    #346c99 55%,
+    #ffcd3a 56%
+  );
+
+  background-clip: text;
+  color: transparent;
+}
+
+.tailwind {
+  color: #00bcff;
+}
+
+.react {
+  color: #5bd9f7;
+}
+
+.wordpress {
+  color: lightgrey;
+}
+
+.mongodb {
+  background: linear-gradient(to right, #35b252 50%, #12924f 50%);
+  background-clip: text;
+  color: transparent;
+}
+
+.express {
+  color: lightgray;
+}
+
+.mysql {
+  color: #00618b;
+}
+
+.typescript {
+  color: #017bd1;
+}
+
+.vim {
+  color: #019733;
+}
+
+.bash {
+  color: white;
+}
+
+.linux {
+  color: silver;
+}
+
+.c {
+  color: #669ad2;
+}
