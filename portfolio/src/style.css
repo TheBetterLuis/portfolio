@@ -52,12 +52,30 @@ img {
 
 .page {
   display: none;
+  padding: 2ch;
+  align-items: center;
+  justify-items: center;
 }
 
 .page.visible {
   display: grid;
+}
+
+.grid-2-cols {
   grid-template-columns: 1fr 1fr;
-  padding: 2ch;
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-6-cols {
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 2ch;
 }
 
 #nav {
@@ -101,4 +119,14 @@ li {
 
 .nf {
   color: black;
+}
+
+.icon {
+  font-size: 4ch;
+}
+
+.skill {
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
