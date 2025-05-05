@@ -186,8 +186,8 @@ li {
   color: lightgray;
 }
 
-.mysql {
-  color: #00618b;
+.sql {
+  color: lightblue;
 }
 
 .typescript {
@@ -208,4 +208,40 @@ li {
 
 .c {
   color: #669ad2;
+}
+
+.hobby {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.music {
+  color: orange;
+}
+
+.soccer {
+  color: white;
+}
+.pingpong {
+  color: red;
+  background: linear-gradient(to bottom, red 55%, white 50%);
+  background-clip: text;
+  color: transparent;
+}
+
+.bicycle {
+  color: darkturquoise;
+}
+
+.bowling {
+  color: lightslategray;
+}
+
+.gaming {
+  color: darkgray;
+}
+
+.drums {
+  color: sandybrown;
 }
